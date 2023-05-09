@@ -21,7 +21,7 @@ export default function BasicTable() {
   const data = opportunities.default;
   const maxIndex = data.length - 1;
 
-  const [cardShown, setCardShown] = React.useState(false);
+  const [cardShown, setCardShown] = React.useState(true);
   const rowIndex = React.useRef(0);
   const [currentRow, setCurrentRow] = React.useState(data[0]);
 
